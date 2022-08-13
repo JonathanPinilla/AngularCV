@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cvAngular';
+  studies =  'studies';
+  experience =  'experience';
+  personalReferences =  'personal-references';
+  index =  '';
+  familyReferences =  'family-references';
 }

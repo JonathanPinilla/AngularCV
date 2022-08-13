@@ -1,0 +1,16 @@
+<div class="container">
+
+  <h1>Studies</h1>
+
+  <mat-card *ngFor="let myStudy of myStudies; index as i">
+
+    <mat-card-title-group>
+      <mat-card-title>{{myTitles[i]}}</mat-card-title>
+      <mat-card-subtitle>{{myStudy}}</mat-card-subtitle>
+      <mat-card-subtitle>{{myYears[i]}}</mat-card-subtitle>
+      <img mat-card-lg-image src="{{myImg[i]}}">
+    </mat-card-title-group>
+
+  </mat-card>
+
+</div>

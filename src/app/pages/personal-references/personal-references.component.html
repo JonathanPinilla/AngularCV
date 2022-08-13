@@ -1,0 +1,13 @@
+<div class="container">
+
+  <h1>Personal References</h1>
+
+  <mat-card *ngFor="let myName of personalNames; index as i">
+
+    <mat-card-title-group>
+      <mat-card-title>{{myName}}</mat-card-title>
+      <mat-card-subtitle>Position: {{personalRelation[i]}}</mat-card-subtitle>
+      <mat-card-subtitle>Contact: {{personalNumber[i]}}</mat-card-subtitle>
+    </mat-card-title-group>
+
+  </mat-card>
